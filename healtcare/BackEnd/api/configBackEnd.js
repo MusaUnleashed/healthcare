@@ -1,7 +1,8 @@
 const HOST = "localhost";
 const PREFIXURL = "http://";
+const port = 3000;
 module.exports = {
-  serverPort: 3000,
-  pathToLog: `${PREFIXURL}${HOST}:3000/log`,
+  serverPort: port,
+  pathToLog: `${PREFIXURL}${HOST}:${port}/log`,
   pathToClientArrService: `${PREFIXURL}/${HOST}/arrays`,
 };
